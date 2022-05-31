@@ -18,6 +18,7 @@ root=Tk()# предназанчена для создания и работы о
 root.title('Парсер COINMARKETCAP') # название программы
 root.resizable(height=False,width=False) # нельзя менять размеры окна приложения
 root.geometry('400x400') # установленные размеры приложения
+root.iconphoto(True, PhotoImage(file='icon.png'))# предназначена для установления значка приложения
 root['bg']='#C7EECA' # цвет окна приложения
 s=StringVar() # переменная со значением из поля ввода
 m=Entry(root,textvariable=s,bg='#8A4A3A', font=('MV Boli', 12, 'bold')) # поле ввода
